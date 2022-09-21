@@ -142,3 +142,22 @@ position: relative;
    height: 150px;
    transform: rotate(90deg);
 }
+
+/*-----responsiveness-----*/
+@media only screen and (max-width: 600px){
+   .clock{
+      height: 350px;
+     width: 350px;
+    }
+ 
+   .hands div{
+     height: 120px ;
+    
+   }
+  .hands div.hour{
+     height: 80px;
+   }
+   .numbers > div{
+     font-size: 2.5rem
+   }
+ }
